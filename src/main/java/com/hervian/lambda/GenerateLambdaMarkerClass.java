@@ -19,16 +19,8 @@ package com.hervian.lambda;
  * @author Anders Granau Høfft
  */
 @GenerateLambda(
-		maxNumberOfParameters=2,
-		paramTypes = {MethodParameter.BOOLEAN,
-									MethodParameter.CHAR,
-									MethodParameter.SHORT,
-									MethodParameter.BYTE,
-									MethodParameter.INT,
-									MethodParameter.FLOAT,
-									MethodParameter.LONG,
-									MethodParameter.DOUBLE,
-									MethodParameter.OBJECT})
+		maxNumberOfParameters=10,
+		paramTypes = {MethodParameter.OBJECT})
 public class GenerateLambdaMarkerClass {
 
 }
